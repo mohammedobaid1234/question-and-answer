@@ -1,0 +1,136 @@
+.main_content .main {
+    width: 80%;
+    
+}
+.bio{
+    display: flex;
+    flex-direction: row;
+}
+.main .left-bio{
+    margin-right: 20px;
+    width: 20%;
+    background-color: #ddd;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+}
+.left-bio img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 70%;
+}
+.left-bio > div{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.left-bio div div{
+    padding-bottom: 10px;
+    background-color: #fff;
+    align-content: space-around;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.left-bio div div *{
+    display: flex;
+    flex-direction: column;
+    text-align: 20px;
+}
+.profile{
+    margin-top: 30px;
+    width: 70%;
+}
+.profile div:first-of-type{
+    display: flex;
+    flex-direction: row;
+}
+.profile div a{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+.profile .edit{
+    width: 65%;
+    height: 65%;
+    background-color: #fafafb;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 13;
+    margin: auto;
+}
+
+.communities{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* background-color: #ccc; */
+}
+.filed{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.filed div:first-of-type{
+    margin-right:10px;
+    width: 200px;
+}
+.top-question {
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 10px
+    /* margin: auto; */
+}
+.top-question > div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.top-question > div:last-of-type{
+    border: none;
+}
+.filter-div{
+    display: flex;
+}
+.filter:first-of-type{
+    margin-right: 20px;
+}
+.filter{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.filter a{
+    padding: 5px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+}
+.filter a:hover{
+    text-decoration: none;
+}
+.filter a:last-of-type{
+    border-right: none;
+}
+
+.intermediate{
+    display: flex;
+}
+.communities{
+    width: 30%;
+}
+.badge *{
+    margin: 10px;
+}
+.badge{
+    display: flex;
+    margin: 10px;
+    /* border: 1px solid #ddd; */
+    
+    /* width: 60%; */
+}
